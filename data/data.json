@@ -1,0 +1,76 @@
+{
+    "staffs": [
+        {
+            "id": "s0000001",
+            "name": "teststaff123",
+            "hash": "$2b$12$IQalnXkId856drbVpyskleQvUch7HNrWHzZ9aE4p9tdmoscDo50tW",
+            "type_name": "staff"
+        }
+    ],
+    "volunteers": [
+        {
+            "id": "v0000001",
+            "name": "testvol123",
+            "hash": "$2b$12$IQalnXkId856drbVpyskleQvUch7HNrWHzZ9aE4p9tdmoscDo50tW",
+            "type_name": "volunteer"
+        }
+    ],
+    "clients": [
+        {
+            "id": "c0daf281",
+            "name": "imcool123",
+            "hash": "$2b$12$OfINmAss8EbwCEA4laG79eoZWsC.7FBCOW1ItfqaS2yV6Cb3.24le",
+            "type_name": "client",
+            "donation_history": [
+                "d0000001",
+                "d0000002"
+            ]
+        }
+    ],
+    "storage": [
+        {
+            "id": "f0000001",
+            "name": "Apple",
+            "quantity": 0,
+            "pending": {
+                "c0daf281": {
+                    "quantity": 100,
+                    "received": 100,
+                    "expiery_date": "29-10-2026"
+                }
+            },
+            "history": {}
+        },
+        {
+            "id": "f0000002",
+            "name": "Orange",
+            "quantity": 0,
+            "pending": {
+                "c0daf281": {
+                    "quantity": 3,
+                    "received": 3,
+                    "expiery_date": "27-10-2026"
+                }
+            },
+            "history": {}
+        }
+    ],
+    "pending_donations": [],
+    "approved_donations": [],
+    "completed_donations": [
+        {
+            "id": "d0000001",
+            "donor_id": "c0daf281",
+            "donation_list": [
+                "f0000001",
+                "f0000002"
+            ],
+            "remarks": "",
+            "pickup_details": {},
+            "timestamp": "2026-10-22T23:19:47.053715",
+            "status": "completed"
+        }
+    ],
+    "food_id_count": 3,
+    "donation_id_count": 3
+}

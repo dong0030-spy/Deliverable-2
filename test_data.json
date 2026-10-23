@@ -1,0 +1,33 @@
+{
+    "staffs": [
+        {
+            "id": "s0000001",
+            "name": "teststaff123",
+            "hash": "$2b$12$Azp59tTt3jc.XUQQKn6.2Op7/sMiGlCoa795X.HmhcCoOp8x6tj3.",
+            "type_name": "staff"
+        }
+    ],
+    "volunteers": [
+        {
+            "id": "v0000001",
+            "name": "testvol123",
+            "hash": "$2b$12$tfS/fxG8EgwGJ7zrd5VKm.yDDxY3NmVl1J0QTQ3NLIagC2AAFCZnO",
+            "type_name": "volunteer"
+        }
+    ],
+    "clients": [],
+    "storage": [
+        {
+            "id": "f0000001",
+            "name": "Rice",
+            "quantity": 100,
+            "pending": {},
+            "history": {}
+        }
+    ],
+    "pending_donations": [],
+    "approved_donations": [],
+    "completed_donations": [],
+    "food_id_count": 2,
+    "donation_id_count": 1
+}
